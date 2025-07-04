@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <header>Calculator</header>
+    <main>
+      <div class="main-container">
+        <input type="text" id="cal-display">
+        <div class="buttons">
+            <button id="button-1" class="button-D">7</button>
+            <button id="button-1" class="button-D">8</button>
+            <button id="button-1" class="button-D">9</button>
+            <button id="button-1" class="button-D" style="background-color: skyblue;">/</button>
+        </div>
+        <div class="buttons">
+            <button id="button-1" class="button-D">4</button>
+            <button id="button-1" class="button-D">5</button>
+            <button id="button-1" class="button-D">6</button>
+            <button id="button-1" class="button-D" style="background-color: skyblue;">*</button>
+        </div>
+        <div class="buttons">
+            <button id="button-1" class="button-D">1</button>
+            <button id="button-1" class="button-D">2</button>
+            <button id="button-1" class="button-D">3</button>
+            <button id="button-1" class="button-D" style="background-color: skyblue;">-</button>  
+        </div>
+        <div class="buttons">
+            <button id="button-1" class="button-D">0</button>
+            <button id="button-1" class="button-D">.</button>
+            <button id="button-1" class="button-D" style="background-color: orange;">=</button>
+            <button id="button-1" class="button-D" style="background-color: skyblue;">+</button>
+        </div>
+        <button onclick="deleteLast()" class="button-D" id="button-x">⌫</button>
+      </div>
+    </main>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    border: 2px solid black;
+}
+#cal-display{
+  height: 90px;
+  width: 387px;
+  border: 2px solid black;
+  margin: 10px 10px auto;
+  font-size: 50px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.button-D{
+    text-align: center;
+    height: 90px;
+    width: 90px;
+    font-size: 50px;
+    border: 2px solid black;
+}
+#button-x{
+    height: 70px;
+  width: 390px;
+  font-size: 50px;
+  margin: 0px 10px 10px 10px;
+}
